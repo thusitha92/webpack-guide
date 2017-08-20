@@ -1,0 +1,22 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "A starting guide for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thusitha92/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Thusitha Manathunga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thusitha92/webpack/issues"
+  },
+  "homepage": "https://github.com/thusitha92/webpack#readme"
+}
