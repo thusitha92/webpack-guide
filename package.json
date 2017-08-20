@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",    
-    "build:prod": "webpack -p"
+    "build": "webpack-dev-server",
+    "build:prod": "webpack-dev-server -p"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/thusitha92/webpack#readme",
   "devDependencies": {
-    "webpack": "3.5.5"
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.7.1"
   }
 }
