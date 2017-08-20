@@ -1,3 +1,4 @@
+import {_dom}  from './dom-loader.js';
 
 (function(){
     'use-strict';
@@ -7,7 +8,7 @@
     };
 
     var render = function(){
-        document.getElementById("btnBackgroundChanger").addEventListener('click', function(){
+        _dom.btnBackgroundChanger.addEventListener('click', function(){
             document.body.style.background = "rgb(" +
             generateRandomRGB()+  ", "+
             generateRandomRGB()+", "+
