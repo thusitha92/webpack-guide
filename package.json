@@ -1,10 +1,12 @@
 {
-  "name": "webpack",
+  "name": "webpack-guide",
   "version": "1.0.0",
   "description": "A starting guide for webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --entry ./src/js/app.js --output-filename ./dist/bundle.js",    
+    "build:prod": "webpack --entry ./src/js/app.js --output-filename ./dist/bundle.js -p"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/thusitha92/webpack/issues"
   },
-  "homepage": "https://github.com/thusitha92/webpack#readme"
+  "homepage": "https://github.com/thusitha92/webpack#readme",
+  "devDependencies": {
+    "webpack": "3.5.5"
+  }
 }
